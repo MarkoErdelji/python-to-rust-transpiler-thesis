@@ -5,3 +5,12 @@ edition = "2021"
 
 [dependencies]
 anyhow = '*'
+ndarray = "0.15"
+
+[[bin]]
+name = "revised"
+path = "src/revised/main.rs"
+
+[[bin]]
+name = "performance"
+path = "src/performance/main.rs"

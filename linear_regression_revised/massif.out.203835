@@ -1,0 +1,691 @@
+desc: (none)
+cmd: target/release/performance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3063500
+mem_heap_B=1251320
+mem_heap_extra_B=80064
+mem_stacks_B=0
+heap_tree=peak
+n5: 1251320 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 328 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=67901240
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=121163396
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=154314244
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=187465092
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=220615940
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=253766788
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=286917636
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=320068484
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=353219332
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=386370180
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=431952596
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=465103444
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=498254292
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=531405140
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=564555988
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=597706836
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=630857684
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=664008532
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=697159380
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=730310228
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=763461076
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=796611924
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=829762772
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=862913620
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=896064468
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=929215316
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=962366164
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=995517012
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1028667860
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1061818708
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=1094969556
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1128120404
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1161271252
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1194422100
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1227572948
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=1260723796
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1293874644
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1327025492
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1360176340
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1393327188
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=1426478036
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1459628884
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1492779732
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1525930580
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1559081428
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=1592232276
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1625383124
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1675109396
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1708260244
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1741411092
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1774561940
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1251240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 799920 0x11F023: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 799920 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 799920 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 799920 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 799920 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 240000 0x11EFEB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 240000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 240000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 240000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 240000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 131072 0x11EDE1: alloc::raw_vec::finish_grow (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 131072 0x11EEBF: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 131072 0x11F31D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 131072 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n1: 131072 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+      n1: 131072 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+       n0: 131072 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n1: 80000 0x11F0AB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+  n1: 80000 0x11EC52: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+   n1: 80000 0x11EBAC: std::rt::lang_start::{{closure}} (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+    n1: 80000 0x13B96F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+     n0: 80000 0x11FBC4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/linear_regression_revised/target/release/performance)
+ n0: 248 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=1807712788
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1840863636
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1874014484
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1907165332
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1940316180
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1973467028
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2006617876
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=2039768724
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2072919572
+mem_heap_B=1251240
+mem_heap_extra_B=80056
+mem_stacks_B=0
+heap_tree=empty

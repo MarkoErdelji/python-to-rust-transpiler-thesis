@@ -1,0 +1,958 @@
+desc: (none)
+cmd: target/release/performance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=15408485
+mem_heap_B=929808
+mem_heap_extra_B=61192
+mem_stacks_B=0
+heap_tree=peak
+n3: 929808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 787449 0x137081: _ZN5alloc7raw_vec11finish_grow17h6de5a2908b58087eE.llvm.18202475762096377243 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 589952 0x13715D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 589824 0x136D7B: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 589824 0x13ABA3: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 589824 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 589824 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n1: 589824 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+        n0: 589824 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 128 in 1 place, below massif's threshold (1.00%)
+  n1: 196608 0x13738B: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 196608 0x1364E8: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 196608 0x1382C8: core::iter::adapters::try_process (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 196608 0x13AA97: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 196608 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n1: 196608 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+        n1: 196608 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+         n0: 196608 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 889 in 2 places, all below massif's threshold (1.00%)
+ n1: 142271 0x1370AD: _ZN5alloc7raw_vec11finish_grow17h6de5a2908b58087eE.llvm.18202475762096377243 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 142271 0x137207: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 142271 0x139706: std::io::append_to_string (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n2: 142271 0x1398EC: <std::io::Lines<B> as core::iter::traits::iterator::Iterator>::next (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 142173 0x1364AD: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 142173 0x1382C8: core::iter::adapters::try_process (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n1: 142173 0x13AA97: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+        n1: 142173 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+         n1: 142173 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+          n1: 142173 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+           n0: 142173 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 98 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 88 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=60674148
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=136223214
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n7: 738704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 331776 0x137E22: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 265464 0x13B17D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 265464 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 265464 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 265464 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 265464 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 66312 0x13B28E: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 66312 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 66312 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 66312 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 66312 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 294912 0x1354F2: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 294912 0x12EA93: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 235968 0x13ADC4: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 235968 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 235968 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 235968 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 235968 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 58944 0x13AE8F: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 58944 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 58944 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 58944 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 58944 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 36864 0x1351BE: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 36864 0x12EDDD: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13AE25: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 7368 in 1 place, below massif's threshold (1.00%)
+ n2: 29496 0x12BF95: <ndarray::ArrayBase<S,ndarray::dimension::dim::Dim<[usize; 2]>> as ndarray::linalg::impl_linalg::Dot<ndarray::ArrayBase<S2,ndarray::dimension::dim::Dim<[usize; 1]>>>>::dot (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13B5CB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12CECB: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A21D: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13B5D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16000 0x13B4D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 16000 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 16000 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 16000 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 16000 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n0: 160 in 27 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=184464808
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=237020680
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=289576552
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=342132424
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=394688296
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=447244168
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=499800040
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=559453704
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=599393331
+mem_heap_B=768200
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=659636175
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=detailed
+n9: 797696 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 331776 0x137E22: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 265464 0x13B17D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 265464 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 265464 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 265464 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 265464 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 66312 0x13B28E: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 66312 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 66312 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 66312 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 66312 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 294912 0x1354F2: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 294912 0x12EA93: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 235968 0x13ADC4: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 235968 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 235968 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 235968 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 235968 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 58944 0x13AE8F: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 58944 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 58944 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 58944 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 58944 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 36864 0x1351BE: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 36864 0x12EDDD: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13AE25: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 7368 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12CC11: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13BB98: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 29496 0x12D17B: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13BA86: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 29496 0x12D434: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A479: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13BA73: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 29496 0x12D774: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13BA96: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16000 0x13B4D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 16000 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 16000 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 16000 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 16000 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n0: 160 in 25 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=693005688
+mem_heap_B=768200
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=772700054
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=823358452
+mem_heap_B=768200
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=detailed
+n8: 768200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 331776 0x137E22: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 265464 0x13B17D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 265464 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 265464 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 265464 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 265464 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 66312 0x13B28E: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 66312 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 66312 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 66312 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 66312 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 294912 0x1354F2: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 294912 0x12EA93: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 235968 0x13ADC4: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 235968 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 235968 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 235968 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 235968 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 58944 0x13AE8F: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 58944 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 58944 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 58944 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 58944 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 36864 0x1351BE: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 36864 0x12EDDD: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13AE25: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 7368 in 1 place, below massif's threshold (1.00%)
+ n2: 29496 0x12BF95: <ndarray::ArrayBase<S,ndarray::dimension::dim::Dim<[usize; 2]>> as ndarray::linalg::impl_linalg::Dot<ndarray::ArrayBase<S2,ndarray::dimension::dim::Dim<[usize; 1]>>>>::dot (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13BA68: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12CECB: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A21D: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13BA73: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12D434: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A479: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13BA73: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16000 0x13B4D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 16000 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 16000 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 16000 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 16000 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n0: 160 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=861396521
+mem_heap_B=768200
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=912306302
+mem_heap_B=768200
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=988865086
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1039774402
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1090683598
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1154455734
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1205363841
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n7: 738704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 331776 0x137E22: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 265464 0x13B17D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 265464 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 265464 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 265464 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 265464 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 66312 0x13B28E: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 66312 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 66312 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 66312 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 66312 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 294912 0x1354F2: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 294912 0x12EA93: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 235968 0x13ADC4: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 235968 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 235968 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 235968 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 235968 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 58944 0x13AE8F: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 58944 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 58944 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 58944 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 58944 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 36864 0x1351BE: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 36864 0x12EDDD: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13AE25: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 7368 in 1 place, below massif's threshold (1.00%)
+ n2: 29496 0x12BF95: <ndarray::ArrayBase<S,ndarray::dimension::dim::Dim<[usize; 2]>> as ndarray::linalg::impl_linalg::Dot<ndarray::ArrayBase<S2,ndarray::dimension::dim::Dim<[usize; 1]>>>>::dot (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13B5CB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12CECB: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A21D: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13B5D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16000 0x13B4D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 16000 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 16000 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 16000 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 16000 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n0: 160 in 27 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=1256271318
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1307178180
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1358084577
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1440190452
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1528623674
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1572960158
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1617296642
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1661632961
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1705968560
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1750303184
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1794636938
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1838970032
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1883302871
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1927635710
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1971968399
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2016300380
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2060631770
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2104962245
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2149292120
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2193621260
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2237949725
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2282278190
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2326606565
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2370934625
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2415262580
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2503917245
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2537364194
+mem_heap_B=679784
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2570966640
+mem_heap_B=797696
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2604574690
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2638020722
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2671608060
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n7: 738704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 331776 0x137E22: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 265464 0x13B17D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 265464 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 265464 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 265464 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 265464 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 66312 0x13B28E: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 66312 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 66312 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 66312 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 66312 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 294912 0x1354F2: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 294912 0x12EA93: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 235968 0x13ADC4: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 235968 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 235968 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 235968 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 235968 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 58944 0x13AE8F: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 58944 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 58944 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 58944 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 58944 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 36864 0x1351BE: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 36864 0x12EDDD: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13AE25: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 7368 in 1 place, below massif's threshold (1.00%)
+ n2: 29496 0x12BF95: <ndarray::ArrayBase<S,ndarray::dimension::dim::Dim<[usize; 2]>> as ndarray::linalg::impl_linalg::Dot<ndarray::ArrayBase<S2,ndarray::dimension::dim::Dim<[usize; 1]>>>>::dot (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13B5CB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12CECB: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A21D: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13B5D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16000 0x13B4D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 16000 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 16000 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 16000 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 16000 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n0: 160 in 27 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=2705053135
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2738433728
+mem_heap_B=827192
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2772019084
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2805463139
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2839048887
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=2872492357
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2905871390
+mem_heap_B=827192
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2939455129
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2972897444
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=3006481236
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n7: 738704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 331776 0x137E22: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 265464 0x13B17D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 265464 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 265464 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 265464 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 265464 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 66312 0x13B28E: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 66312 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 66312 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 66312 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 66312 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 294912 0x1354F2: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 294912 0x12EA93: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 235968 0x13ADC4: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 235968 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 235968 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 235968 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 235968 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 58944 0x13AE8F: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 58944 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 58944 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 58944 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 58944 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n1: 36864 0x1351BE: ndarray::iterators::to_vec_mapped (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 36864 0x12EDDD: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13AE25: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 7368 in 1 place, below massif's threshold (1.00%)
+ n2: 29496 0x12BF95: <ndarray::ArrayBase<S,ndarray::dimension::dim::Dim<[usize; 2]>> as ndarray::linalg::impl_linalg::Dot<ndarray::ArrayBase<S2,ndarray::dimension::dim::Dim<[usize; 1]>>>>::dot (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 29496 0x13B5CB: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 29496 0x12CECB: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n2: 29496 0x13A21D: performance::sigmoid (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 29496 0x13B5D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 29496 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n1: 29496 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+      n1: 29496 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+       n0: 29496 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16000 0x13B4D6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+  n1: 16000 0x137AD2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+   n1: 16000 0x1373CC: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17he2a8d302f849f2d3E.llvm.9008482892421262071 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+    n1: 16000 0x15A0DF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+     n0: 16000 0x13D114: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/logistic_regression_revised/target/release/performance)
+ n0: 160 in 27 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=3039923311
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=3073301024
+mem_heap_B=827192
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=3106883446
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=3140324921
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=3173907975
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=3207349180
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=3240726518
+mem_heap_B=827192
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=3274308625
+mem_heap_B=738704
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty

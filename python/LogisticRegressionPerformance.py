@@ -60,7 +60,9 @@ def predict(X, theta):
 
 
 if __name__ == "__main__":
-    data = load_data('data.csv')
+    start_time = time.time()
+    mem_usage_before = memory_usage()[0]
+    data = load_data('extendedData.csv')
     data = convert_to_float(data)
 
     X_train, y_train, X_test, y_test = split_data(data)
@@ -88,3 +90,9 @@ if __name__ == "__main__":
 
     print(f'Training Accuracy: {train_accuracy:.2f}%')
     print(f'Test Accuracy: {test_accuracy:.2f}%')
+    mem_usage_after = memory_usage()[0]
+
+    end_time = time.time()
+    execution_time = end_time - start_time
+    print(f"Execution Time: {execution_time:.6f} seconds")
+    print(f"Memory Usage: {mem_usage_after - mem_usage_before:.2f} MB")

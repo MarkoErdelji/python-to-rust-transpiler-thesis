@@ -1,5 +1,5 @@
 [package]
-name = "hello_world"
+name = "logistic_regression"
 version = "0.1.0"
 edition = "2018"
 
@@ -7,3 +7,11 @@ edition = "2018"
 anyhow = "1.0"
 ndarray = "0.15"
 rand = "0.8"
+
+[[bin]]
+name = "revised"
+path = "src/revised/main.rs"
+
+[[bin]]
+name = "performance"
+path = "src/performance/main.rs"

@@ -117,7 +117,6 @@ pub fn predict(X: &Array2<f64>, theta: &Array1<f64>) -> Array1<bool> {
         sigmoid_values.mapv(|value| value >= 0.5)
     }
 pub fn main() -> Result<()> {
-        let start_time = Instant::now();
         let data = load_data("data.csv")?;
         let data = convert_to_float(data);
         let (X_train, y_train, X_test, y_test) = split_data(data, 0.2);
@@ -147,10 +146,8 @@ pub fn main() -> Result<()> {
                 .map(|(&pred, &actual)| (pred == (actual != 0.0)) as u8 as f64)
                 .collect::<Array1<_>>();
         let test_accuracy = (test_correct.mean().unwrap() * 100.0) as i32;
-        let elapsed_time = start_time.elapsed().as_secs_f64();
-
+        
         println!("Training Accuracy: {}%", train_accuracy);
         println!("Test Accuracy: {}%", test_accuracy);
-        println!("Execution Time: {:?} seconds", elapsed_time);
         Ok(())
     }
