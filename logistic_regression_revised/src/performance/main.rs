@@ -30,9 +30,8 @@ use anyhow::Result;
 use ndarray::s;
 use ndarray::{Array, Array1, Array2, Axis};
 use std::collections;
-use std::fs::OpenOptions;
-use std::io::BufRead;
-use std::io::BufReader;
+use std::fs::{File, OpenOptions};
+use std::io::{BufRead, BufReader, Write};
 use std::time::Instant;
 
 pub fn load_data(file_path: &str) -> Result<Array2<f64>> {
@@ -105,52 +104,73 @@ pub fn gradient_descent(
 ) -> (Array1<f64>, Array1<f64>) {
     let m = y.len() as f64;
     let mut cost_history = Array::zeros(num_iters);
+    let mut epoch_times: Vec<f64> = Vec::new();
+    
     for i in 0..num_iters {
+        let epoch_start_time = Instant::now();
+        
         theta -= &(alpha * &gradient(X, y, &theta));
         cost_history[i] = compute_cost(X, y, &theta);
+        
+        let epoch_elapsed_time = epoch_start_time.elapsed().as_secs_f64() * 1000.0; // Convert to milliseconds
+        epoch_times.push(epoch_elapsed_time);
     }
+    
+    let file_path = "epoch_times.csv";
+    let mut file = File::create(file_path).expect("Could not create file");
+    
+    writeln!(file, "Epoch\tTime (ms)").expect("Could not write to file");
+    for (epoch, time) in epoch_times.iter().enumerate() {
+        writeln!(file, "{},{}", epoch + 1, time).expect("Could not write to file");
+    }
+
     (theta, cost_history)
 }
 
 pub fn predict(X: &Array2<f64>, theta: &Array1<f64>) -> Array1<bool> {
-        let sigmoid_values = sigmoid(X.dot(theta));
-        sigmoid_values.mapv(|value| value >= 0.5)
-    }
+    let sigmoid_values = sigmoid(X.dot(theta));
+    sigmoid_values.mapv(|value| value >= 0.5)
+}
+
 pub fn main() -> Result<()> {
-        let start_time = Instant::now();
-        let data = load_data("extendedData.csv")?;
-        let data = convert_to_float(data);
-        let (X_train, y_train, X_test, y_test) = split_data(data, 0.2);
-        let X_train = feature_scaling(X_train);
-        let X_test = feature_scaling(X_test);
-        let X_train = ndarray::concatenate![Axis(1), Array::ones((X_train.nrows(), 1)), X_train];
-        let X_test = ndarray::concatenate![Axis(1), Array::ones((X_test.nrows(), 1)), X_test];
-        let theta = Array::zeros(X_train.ncols());
-        let alpha = 0.01;
-        let num_iters = 2000;
-        let (theta, cost_history) = gradient_descent(&X_train, &y_train, theta, alpha, num_iters);
-        println!("Final cost: {}", cost_history[num_iters - 1]);
-        println!("Optimal parameters: {:?}", theta);
-        let train_predictions = predict(&X_train, &theta);
-        let test_predictions = predict(&X_test, &theta);
+    let start_time = Instant::now();
+    let data = load_data("extendedData.csv")?;
+    let data = convert_to_float(data);
+    let (X_train, y_train, X_test, y_test) = split_data(data, 0.2);
+    let X_train = feature_scaling(X_train);
+    let X_test = feature_scaling(X_test);
+    let X_train = ndarray::concatenate![Axis(1), Array::ones((X_train.nrows(), 1)), X_train];
+    let X_test = ndarray::concatenate![Axis(1), Array::ones((X_test.nrows(), 1)), X_test];
+    let theta = Array::zeros(X_train.ncols());
+    let alpha = 0.01;
+    let num_iters = 2000;
+    let (theta, cost_history) = gradient_descent(&X_train, &y_train, theta, alpha, num_iters);
     
-                let train_correct: Array1<f64> = train_predictions
-                .iter()
-                .zip(y_train.iter())
-                .map(|(&pred, &actual)| (pred == (actual != 0.0)) as u8 as f64)
-                .collect::<Array1<_>>();
-        let train_accuracy = (train_correct.mean().unwrap() * 100.0) as i32;
-
-        let test_correct: Array1<f64> = test_predictions
-                .iter()
-                .zip(y_test.iter())
-                .map(|(&pred, &actual)| (pred == (actual != 0.0)) as u8 as f64)
-                .collect::<Array1<_>>();
-        let test_accuracy = (test_correct.mean().unwrap() * 100.0) as i32;
-        let elapsed_time = start_time.elapsed().as_secs_f64();
-
-        println!("Training Accuracy: {}%", train_accuracy);
-        println!("Test Accuracy: {}%", test_accuracy);
-        println!("Execution Time: {:?} seconds", elapsed_time);
-        Ok(())
-    }
+    println!("Final cost: {}", cost_history[num_iters - 1]);
+    println!("Optimal parameters: {:?}", theta);
+    
+    let train_predictions = predict(&X_train, &theta);
+    let test_predictions = predict(&X_test, &theta);
+    
+    let train_correct: Array1<f64> = train_predictions
+        .iter()
+        .zip(y_train.iter())
+        .map(|(&pred, &actual)| (pred == (actual != 0.0)) as u8 as f64)
+        .collect::<Array1<_>>();
+    let train_accuracy = (train_correct.mean().unwrap() * 100.0) as i32;
+    
+    let test_correct: Array1<f64> = test_predictions
+        .iter()
+        .zip(y_test.iter())
+        .map(|(&pred, &actual)| (pred == (actual != 0.0)) as u8 as f64)
+        .collect::<Array1<_>>();
+    let test_accuracy = (test_correct.mean().unwrap() * 100.0) as i32;
+    
+    let elapsed_time = start_time.elapsed().as_secs_f64();
+    
+    println!("Training Accuracy: {}%", train_accuracy);
+    println!("Test Accuracy: {}%", test_accuracy);
+    println!("Execution Time: {:.6} seconds", elapsed_time);
+    
+    Ok(())
+}

@@ -1,5 +1,6 @@
 import numpy as np
 import time
+import csv
 from memory_profiler import memory_usage
 
 def load_data(file_path):
@@ -9,7 +10,6 @@ def load_data(file_path):
     data = [line.strip().split(',') for line in lines[1:]]
     data = np.array(data, dtype=str)
     return data
-
 
 def convert_to_float(data):
     return data.astype(float)
@@ -27,7 +27,6 @@ def split_data(data, test_ratio=0.2):
     X_test = data[-num_test_samples:, :-1]
     y_test = data[-num_test_samples:, -1]
     return X_train, y_train, X_test, y_test
-
 
 def sigmoid(z):
     z = np.clip(z, -500, 500)  
@@ -49,19 +48,34 @@ def gradient(X, y, theta):
 def gradient_descent(X, y, theta, alpha, num_iters):
     m = len(y)
     cost_history = np.zeros(num_iters)
+    epoch_times = []
+    
     for i in range(num_iters):
+        epoch_start_time = time.time()
+        
         theta -= alpha * gradient(X, y, theta)
         cost_history[i] = compute_cost(X, y, theta)
-    return theta, cost_history
-
+        
+        epoch_end_time = time.time()
+        epoch_duration = epoch_end_time - epoch_start_time
+        epoch_times.append(epoch_duration)
+    
+    return theta, cost_history, epoch_times
 
 def predict(X, theta):
     return sigmoid(X.dot(theta)) >= 0.5
-
+    
+def write_times_and_costs_to_csv(cost_history: np.ndarray, epoch_times: list, filename: str) -> None:
+    with open(filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Epoch", "Time (seconds)", "Cost"])
+        for i in range(len(epoch_times)):
+            writer.writerow([i + 1, epoch_times[i], cost_history[i]])
 
 if __name__ == "__main__":
     start_time = time.time()
     mem_usage_before = memory_usage()[0]
+
     data = load_data('extendedData.csv')
     data = convert_to_float(data)
 
@@ -77,7 +91,7 @@ if __name__ == "__main__":
     alpha = 0.01
     num_iters = 2000
 
-    theta, cost_history = gradient_descent(X_train, y_train, theta, alpha, num_iters)
+    theta, cost_history, epoch_times = gradient_descent(X_train, y_train, theta, alpha, num_iters)
 
     print(f'Final cost: {cost_history[-1]}')
     print(f'Optimal parameters: {theta}')
@@ -90,9 +104,12 @@ if __name__ == "__main__":
 
     print(f'Training Accuracy: {train_accuracy:.2f}%')
     print(f'Test Accuracy: {test_accuracy:.2f}%')
+    
     mem_usage_after = memory_usage()[0]
 
     end_time = time.time()
     execution_time = end_time - start_time
     print(f"Execution Time: {execution_time:.6f} seconds")
     print(f"Memory Usage: {mem_usage_after - mem_usage_before:.2f} MB")
+
+    write_times_and_costs_to_csv(cost_history, epoch_times, 'logistic_regression_epoch_times_and_costs.csv')
