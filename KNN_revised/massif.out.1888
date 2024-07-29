@@ -1,0 +1,1168 @@
+desc: (none)
+cmd: target/release/performance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2668400
+mem_heap_B=52572
+mem_heap_extra_B=2868
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=4995888
+mem_heap_B=96563
+mem_heap_extra_B=5621
+mem_stacks_B=0
+heap_tree=detailed
+n4: 96563 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 55200 0x125AD3: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 55200 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 55200 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 55200 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n0: 55200 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n3: 32896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 24576 0x12D48D: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 24576 0x125B2A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 24576 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 24576 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 24576 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 24576 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 8192 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 8192 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 8192 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 8192 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 8192 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 8192 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x1258CD: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 8192 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 8192 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 8192 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n0: 8192 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n0: 275 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=8391573
+mem_heap_B=169645
+mem_heap_extra_B=9675
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=12041200
+mem_heap_B=212910
+mem_heap_extra_B=14010
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=15031389
+mem_heap_B=313940
+mem_heap_extra_B=17548
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=17867219
+mem_heap_B=347659
+mem_heap_extra_B=20925
+mem_stacks_B=0
+heap_tree=detailed
+n4: 347659 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 208000 0x125AD3: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 208000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 208000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 208000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n0: 208000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n3: 131200 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 98304 0x12D48D: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 98304 0x125B2A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 98304 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 98304 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 98304 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 98304 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 32768 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 32768 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 32768 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 32768 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 32768 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 32768 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x1258CD: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 8192 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 8192 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 8192 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n0: 8192 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n0: 267 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=21810866
+mem_heap_B=394468
+mem_heap_extra_B=25596
+mem_stacks_B=0
+heap_tree=detailed
+n4: 394468 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 254800 0x125AD3: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 254800 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 254800 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 254800 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n0: 254800 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n3: 131200 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 98304 0x12D48D: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 98304 0x125B2A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 98304 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 98304 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 98304 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 98304 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 32768 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 32768 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 32768 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 32768 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 32768 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 32768 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x1258CD: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 8192 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 8192 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 8192 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n0: 8192 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n0: 276 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=24438045
+mem_heap_B=425669
+mem_heap_extra_B=28715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=27326445
+mem_heap_B=459720
+mem_heap_extra_B=32128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=31217606
+mem_heap_B=637220
+mem_heap_extra_B=36764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=35059823
+mem_heap_B=682632
+mem_heap_extra_B=41312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=39642712
+mem_heap_B=737148
+mem_heap_extra_B=46772
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=42547156
+mem_heap_B=1200984
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=46007762
+mem_heap_B=1391864
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=peak
+n7: 1391864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n1: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BA6E: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n1: 47600 0x12A4CD: core::slice::sort::stable::driftsort_main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x124A57: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BA6E: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BA6E: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+ n0: 88 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=49448613
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=52886233
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=57834597
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=61255624
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=64680423
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=66575892
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=69998629
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=73424469
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=76832134
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=80254337
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=85194421
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=88625433
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=92033708
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=95459139
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=97357337
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=100746737
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=104181346
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=107581627
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=110995852
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=114417979
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=117826019
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=121264700
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=122797814
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=126228123
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=128151010
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=131588436
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=135015314
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=138464045
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=141878411
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=145301885
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=148731922
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=152160689
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=155567317
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=158996950
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=162423944
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=163957058
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=165845012
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=167378126
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=169276639
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=170820682
+mem_heap_B=1392264
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=172693731
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=174226845
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=176107741
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=177651784
+mem_heap_B=1392264
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=179539419
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=181072533
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=182976497
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=184509611
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=186389884
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=187922998
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=189813363
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=191346477
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=193224154
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=194757268
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=196655775
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=198199818
+mem_heap_B=1392264
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=200066378
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1344664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x12D241: _ZN5alloc7raw_vec11finish_grow17h6286b87a7920126cE.llvm.227187849314271448 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 655360 0x12D3BD: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 655360 0x12B81A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 655360 0x125C6C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 655360 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 655360 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 655360 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 655360 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 65536 0x12D54F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 65536 0x125B7A: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 65536 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 65536 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 65536 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 65536 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 480000 0x12C911: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 476000 0x125DD0: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 476000 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 476000 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 476000 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 476000 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 4000 in 1 place, below massif's threshold (1.00%)
+ n2: 48080 0x12CDF4: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::to_owned (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x125F3C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 480 in 2 places, all below massif's threshold (1.00%)
+ n2: 47600 0x124954: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 47600 0x12B339: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+  n2: 47600 0x1248C1: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &mut F>::call_once (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n1: 47600 0x12BB97: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+    n1: 47600 0x1261F6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+     n1: 47600 0x128542: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+      n1: 47600 0x128EA0: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h503f6b02074486bbE.llvm.18396726636710580492 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+       n1: 47600 0x14962F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+        n0: 47600 0x126ED4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/KNN_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 488 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=201610421
+mem_heap_B=1392264
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=203476052
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=205009166
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=206883484
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=208416598
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=210293642
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=211826756
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=213711571
+mem_heap_B=1344664
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty

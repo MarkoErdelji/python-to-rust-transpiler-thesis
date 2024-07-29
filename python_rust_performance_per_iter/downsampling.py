@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Read the CSV file into a DataFrame
-data = pd.read_csv('epoch_times.csv')
+data = pd.read_csv('svm_epoch_times_rust.csv')
 
 def moving_average(series, window_size):
     return series.rolling(window=window_size, min_periods=1, center=True).mean()

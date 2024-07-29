@@ -1,0 +1,706 @@
+desc: (none)
+cmd: target/release/performance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=41649847
+mem_heap_B=1069912
+mem_heap_extra_B=15280
+mem_stacks_B=0
+heap_tree=peak
+n3: 1069912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 917504 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 196608 0x12C23D: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 196608 0x1291E3: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 196608 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 196608 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 196608 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 196608 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 65536 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 152320 0x12919D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 152320 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 152320 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 152320 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n0: 152320 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 88 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=130246521
+mem_heap_B=769400
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n3: 769400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 721152 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 65792 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 256 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 48000 0x125D5A: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 48000 0x12943C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 48000 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 48000 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 48000 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n0: 48000 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 248 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=199883434
+mem_heap_B=769480
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=278700855
+mem_heap_B=769656
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=333939839
+mem_heap_B=769736
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=427283109
+mem_heap_B=770168
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n3: 770168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 721920 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 66560 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 1024 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 48000 0x125D5A: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 48000 0x12943C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 48000 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 48000 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 48000 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n0: 48000 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 248 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=489566723
+mem_heap_B=770168
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=602224627
+mem_heap_B=770168
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=686593317
+mem_heap_B=771192
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=801641350
+mem_heap_B=771192
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=878339907
+mem_heap_B=771192
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=939698914
+mem_heap_B=771272
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1031755759
+mem_heap_B=771192
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1142235362
+mem_heap_B=771192
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1215888116
+mem_heap_B=771192
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1301816027
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1412295250
+mem_heap_B=773320
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1522773789
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1623078622
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1720397739
+mem_heap_B=773320
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1817716694
+mem_heap_B=773160
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1876108204
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1973427198
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2070746575
+mem_heap_B=773320
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2129138134
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2206993623
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2284848930
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2343240587
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n3: 773240 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 724992 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 69632 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 4096 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 48000 0x125D5A: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 48000 0x12943C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 48000 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 48000 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 48000 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n0: 48000 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 248 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=2421095794
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2479487149
+mem_heap_B=773240
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2557342183
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2649408320
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2710786137
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2802852460
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2864230149
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2925607759
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2986985501
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3048363055
+mem_heap_B=777256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3109740902
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3232495985
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3324562304
+mem_heap_B=777256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3447317541
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 777416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 729088 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 73728 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 8192 0x12A151: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 8192 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 8192 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 8192 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 8192 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 48000 0x125D5A: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 48000 0x12943C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 48000 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 48000 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 48000 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n0: 48000 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 328 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=3539383839
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3631450182
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3754205252
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 777416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 729088 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 73728 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 8192 0x12A151: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 8192 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 8192 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 8192 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 8192 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 48000 0x125D5A: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 48000 0x12943C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 48000 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 48000 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 48000 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n0: 48000 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 328 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=3815583051
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3938337981
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=4030404502
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=4091782213
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4147021523
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=4202260628
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=4257499629
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4312738635
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4367977692
+mem_heap_B=777256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=4423216748
+mem_heap_B=777256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=4478456050
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=4533695133
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=4588934172
+mem_heap_B=777256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 777256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 729088 0x12BF31: _ZN5alloc7raw_vec11finish_grow17h6e94443ef244efedE.llvm.9700049233185097420 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n2: 655360 0x12C00D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 655360 0x12CF1A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 655360 0x129335: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 655360 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 655360 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n1: 655360 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+        n0: 655360 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 73728 0x12C16F: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 65536 0x12923B: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 65536 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 65536 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 65536 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 65536 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 8192 0x12A151: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 8192 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 8192 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n1: 8192 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+       n0: 8192 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 48000 0x125D5A: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::map (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+  n1: 48000 0x12943C: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+   n1: 48000 0x12D7D2: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+    n1: 48000 0x12D398: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h420ab5ef8ed0df1dE.llvm.15966593582251502379 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+     n1: 48000 0x148FAF: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+      n0: 48000 0x12B404: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/svm_revised/target/release/performance)
+ n0: 168 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=4644173285
+mem_heap_B=777416
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=4699412332
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=4754651487
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=4809890482
+mem_heap_B=777256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=4865129749
+mem_heap_B=777336
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty

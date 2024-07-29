@@ -4,6 +4,7 @@ use std::collections::HashMap;
 use std::error::Error;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
+use std::time::Instant;
 
 pub struct KNN {
     pub k: usize,
@@ -40,12 +41,12 @@ impl KNN {
 
         let mut label_counts = HashMap::new();
         for &index in &k_indices {
-            let label = self.y_train[index].to_string();
+            let label = self.y_train[index].to_string(); // Convert to String for HashMap
             *label_counts.entry(label).or_insert(0) += 1;
         }
 
         let (most_common_label, _) = label_counts.into_iter().max_by_key(|&(_, count)| count).unwrap();
-        most_common_label.parse::<f64>().unwrap() 
+        most_common_label.parse::<f64>().unwrap() // Convert back to f64
     }
 
     fn _compute_distances(&self, x: &Array1<f64>) -> Array1<f64> {
@@ -94,19 +95,28 @@ pub fn calculate_accuracy(predictions: &Array1<f64>, actual: &Array1<f64>) -> f6
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let file_path = "KNN.csv";
+    let start_time = Instant::now();
+    
+    let file_path = "extendedKNN.csv";
     let (X, y) = load_data(file_path)?;
     let (X_train, X_test) = (X.slice(s![..-50, ..]).to_owned(), X.slice(s![-50.., ..]).to_owned());
     let (y_train, y_test) = (y.slice(s![..-50]).to_owned(), y.slice(s![-50..]).to_owned());
 
     let mut knn = KNN::new(3);
     knn.fit(X_train, y_train);
+    
+    let prediction_start_time = Instant::now();
     let predictions = knn.predict(X_test);
+    let prediction_time = prediction_start_time.elapsed().as_secs_f64();
+    
     let accuracy = calculate_accuracy(&predictions, &y_test);
+    let total_time = start_time.elapsed().as_secs_f64();
 
     println!("Predictions: {:?}", predictions);
     println!("Actual: {:?}", y_test);
     println!("Accuracy: {:.2}%", accuracy);
+    println!("Prediction Time: {:.6} seconds", prediction_time);
+    println!("Total Execution Time: {:.6} seconds", total_time);
 
     Ok(())
 }

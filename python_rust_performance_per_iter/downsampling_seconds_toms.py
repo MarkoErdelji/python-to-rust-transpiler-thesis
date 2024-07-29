@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv('python_logistic_regression_iterations.csv')
+data = pd.read_csv('svm_epoch_times.csv')
 
 def moving_average(series, window_size):
     return series.rolling(window=window_size, min_periods=1, center=True).mean()

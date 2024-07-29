@@ -1,0 +1,1085 @@
+desc: (none)
+cmd: target/release/performance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1024337
+mem_heap_B=19854
+mem_heap_extra_B=874
+mem_stacks_B=0
+heap_tree=detailed
+n4: 19854 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n1: 7680 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 7680 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 7680 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 7680 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 7680 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 3712 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 3072 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 3072 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 3072 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 3072 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 3072 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 3072 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 512 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 512 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 512 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 512 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 512 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 512 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n0: 270 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=2673385
+mem_heap_B=50212
+mem_heap_extra_B=2828
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4508101
+mem_heap_B=86300
+mem_heap_extra_B=5028
+mem_stacks_B=0
+heap_tree=detailed
+n4: 86300 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 49040 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 49040 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 49040 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 49040 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 49040 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 28800 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 24576 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 24576 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 24576 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 24576 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 24576 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 24576 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 4096 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 4096 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 4096 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 4096 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 4096 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 4096 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 268 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=5728375
+mem_heap_B=100717
+mem_heap_extra_B=6475
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7033067
+mem_heap_B=116227
+mem_heap_extra_B=8013
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=8498646
+mem_heap_B=162332
+mem_heap_extra_B=9764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=9395157
+mem_heap_B=172982
+mem_heap_extra_B=10818
+mem_stacks_B=0
+heap_tree=detailed
+n4: 172982 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 107040 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 107040 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 107040 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 107040 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 107040 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 57472 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 49152 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 49152 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 49152 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 49152 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 49152 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 49152 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 278 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=10850655
+mem_heap_B=190260
+mem_heap_extra_B=12548
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=12329488
+mem_heap_B=207592
+mem_heap_extra_B=14288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=13471102
+mem_heap_B=221292
+mem_heap_extra_B=15660
+mem_stacks_B=0
+heap_tree=detailed
+n4: 221292 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 155360 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 155360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 155360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 155360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 155360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 57472 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 49152 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 49152 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 49152 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 49152 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 49152 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 49152 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 268 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=15041238
+mem_heap_B=297301
+mem_heap_extra_B=17523
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=16128133
+mem_heap_B=310245
+mem_heap_extra_B=18811
+mem_stacks_B=0
+heap_tree=detailed
+n4: 310245 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 186960 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 186960 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 186960 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 186960 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 186960 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 114816 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 98304 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 98304 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 98304 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 98304 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 98304 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 98304 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 16384 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 16384 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 16384 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 16384 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 16384 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 16384 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 277 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=17318873
+mem_heap_B=324334
+mem_heap_extra_B=20234
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=18522771
+mem_heap_B=338639
+mem_heap_extra_B=21657
+mem_stacks_B=0
+heap_tree=detailed
+n4: 338639 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 215360 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 215360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 215360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 215360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 215360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 114816 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 98304 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 98304 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 98304 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 98304 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 98304 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 98304 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 16384 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 16384 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 16384 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 16384 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 16384 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 16384 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 271 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=19610532
+mem_heap_B=351336
+mem_heap_extra_B=22928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=20837478
+mem_heap_B=366085
+mem_heap_extra_B=24395
+mem_stacks_B=0
+heap_tree=detailed
+n4: 366085 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 242800 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 242800 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 242800 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 242800 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 242800 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 114816 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 98304 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 98304 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 98304 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 98304 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 98304 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 98304 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 16384 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 16384 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 16384 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 16384 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 16384 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 16384 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 277 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=22382944
+mem_heap_B=384478
+mem_heap_extra_B=26242
+mem_stacks_B=0
+heap_tree=detailed
+n4: 384478 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 261200 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 261200 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 261200 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 261200 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 261200 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 114816 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 98304 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 98304 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 98304 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 98304 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 98304 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 98304 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 16384 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 16384 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 16384 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 16384 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 16384 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 16384 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 270 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=23592193
+mem_heap_B=398616
+mem_heap_extra_B=27656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=24925717
+mem_heap_B=414626
+mem_heap_extra_B=29262
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=25723242
+mem_heap_B=424083
+mem_heap_extra_B=30197
+mem_stacks_B=0
+heap_tree=detailed
+n4: 424083 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 300800 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 300800 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 300800 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 300800 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 300800 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 114816 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 98304 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 98304 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 98304 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 98304 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 98304 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 98304 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 16384 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 16384 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 16384 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 16384 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 16384 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 16384 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 275 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=27153658
+mem_heap_B=441039
+mem_heap_extra_B=31897
+mem_stacks_B=0
+heap_tree=detailed
+n4: 441039 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 317760 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 317760 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 317760 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 317760 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 317760 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 114816 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 98304 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 98304 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 98304 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 98304 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 98304 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 98304 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 16384 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 16384 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 16384 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 16384 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 16384 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 16384 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 271 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=28732898
+mem_heap_B=574528
+mem_heap_extra_B=33776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=30627619
+mem_heap_B=596776
+mem_heap_extra_B=36008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=31603500
+mem_heap_B=608612
+mem_heap_extra_B=37180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=32814136
+mem_heap_B=622927
+mem_heap_extra_B=38617
+mem_stacks_B=0
+heap_tree=detailed
+n4: 622927 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 384960 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 384960 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 384960 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 384960 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 384960 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 229504 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 196608 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 196608 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 196608 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 196608 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 196608 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 196608 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 128 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 271 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=34653996
+mem_heap_B=644718
+mem_heap_extra_B=40818
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=35709263
+mem_heap_B=657144
+mem_heap_extra_B=42056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=36788744
+mem_heap_B=670116
+mem_heap_extra_B=43348
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=38149337
+mem_heap_B=686293
+mem_heap_extra_B=44963
+mem_stacks_B=0
+heap_tree=detailed
+n4: 686293 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 448320 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 448320 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 448320 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 448320 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 448320 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n3: 229693 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 196608 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 196608 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 196608 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 196608 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 196608 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 196608 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 317 in 2 places, all below massif's threshold (1.00%)
+ n1: 8192 0x12E89D: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 8192 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 8192 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 8192 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 8192 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 88 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=39783253
+mem_heap_B=705649
+mem_heap_extra_B=46903
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=40872586
+mem_heap_B=729944
+mem_heap_extra_B=46032
+mem_stacks_B=0
+heap_tree=detailed
+n3: 729944 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 459520 0x12EAC1: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 459520 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 459520 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 459520 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 459520 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n4: 270336 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 196608 0x130EAD: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 196608 0x12EB11: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 196608 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 196608 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 196608 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 196608 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n2: 40960 0x130D3D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 40960 0x131D0A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 40960 0x12EC52: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 40960 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 40960 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 40960 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 40960 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 88 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=42208192
+mem_heap_B=721000
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=43278621
+mem_heap_B=1081000
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1081000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n3: 688128 0x130D3D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 655360 0x131D0A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 655360 0x12EC52: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 655360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 655360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 655360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 655360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x131488: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x12F213: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 240000 0x132D72: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 240000 0x1281A6: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::select (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 240000 0x12F234: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 240000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 240000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 240000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 240000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n1: 120000 0x128095: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::select (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 120000 0x12F234: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 120000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 120000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 120000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n0: 120000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 104 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=44409957
+mem_heap_B=1321000
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=peak
+n4: 1321000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 720896 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n3: 688128 0x130D3D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 655360 0x131D0A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 655360 0x12EC52: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 655360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 655360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 655360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 655360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x131748: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x12F2A2: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 480000 0x132D72: ndarray::stacking::concatenate (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n2: 480000 0x1281A6: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::select (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 240000 0x12F234: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 240000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 240000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 240000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 240000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 240000 0x12F2C6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 240000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 240000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 240000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 240000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n2: 120000 0x128095: ndarray::impl_methods::<impl ndarray::ArrayBase<S,D>>::select (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 120000 0x12F2C6: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 120000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 120000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 120000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n0: 120000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 104 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=45565815
+mem_heap_B=1168584
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=46721598
+mem_heap_B=1168744
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=48717185
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=50214313
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=51212429
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=53208529
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=54206613
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=55204729
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=56202813
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=57200909
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=58198989
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=59197029
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=60694173
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 712904 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 688128 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n2: 655360 0x130D3D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 655360 0x131D0A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 655360 0x12EC52: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 655360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 655360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 655360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 655360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 24000 0x12F630: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 24000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 24000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 24000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 24000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 776 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=61692265
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=62690357
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=63488042
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=64285687
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=65083283
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=65880868
+mem_heap_B=713064
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=66678645
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=67476222
+mem_heap_B=713064
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=detailed
+n3: 713064 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 688128 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n2: 655360 0x130D3D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 655360 0x131D0A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 655360 0x12EC52: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 655360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 655360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 655360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 655360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 24000 0x12F630: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 24000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 24000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 24000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 24000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 936 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=68273788
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=69071552
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=69869122
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=70666862
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=71464395
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=72261960
+mem_heap_B=712824
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=73059674
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=73857216
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=74655459
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=75453148
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=detailed
+n3: 712984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 688128 0x130C61: _ZN5alloc7raw_vec11finish_grow17h043cb4e78a6e64e5E.llvm.4759266525162049835 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n2: 655360 0x130D3D: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 655360 0x131D0A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 655360 0x12EC52: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 655360 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 655360 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n1: 655360 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+        n0: 655360 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n1: 32768 0x130F69: alloc::raw_vec::RawVec<T,A>::grow_one (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 32768 0x12EB80: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 32768 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n1: 32768 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+      n1: 32768 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+       n0: 32768 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 24000 0x12F630: performance::main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+  n1: 24000 0x131F12: std::sys::backtrace::__rust_begin_short_backtrace (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+   n1: 24000 0x132FF8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hf46311e27f1ebebdE.llvm.11441087740040520692 (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+    n1: 24000 0x14E56F: std::rt::lang_start_internal (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+     n0: 24000 0x1305B4: main (in /mnt/c/Users/erdel/OneDrive/Desktop/RustPLay/naive_bayes_revised/target/release/performance)
+ n0: 856 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=76250789
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=77048389
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=77845966
+mem_heap_B=713064
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=78643751
+mem_heap_B=712904
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=79441332
+mem_heap_B=713064
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=80238894
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=81036658
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=81834240
+mem_heap_B=712984
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
